@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Verification Result | Land Records
+    </title>
+
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+
+            margin: 0;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            background: #f5f7fa;
+
+            color: #1f2937;
+
+        }
+
+
+        /* ================= HEADER ================= */
+
+        .header {
+
+            background: #102a43;
+
+            color: white;
+
+            height: 72px;
+
+            padding: 0 6%;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+        }
+
+
+        .brand {
+
+            font-size: 20px;
+
+            font-weight: 700;
+
+        }
+
+
+        .brand span {
+
+            display: block;
+
+            font-size: 12px;
+
+            color: #b9c7d6;
+
+            margin-top: 3px;
+
+        }
+
+
+        .nav {
+
+            display: flex;
+
+            gap: 28px;
+
+        }
+
+
+        .nav a {
+
+            color: #d9e2ec;
+
+            text-decoration: none;
+
+            font-size: 14px;
+
+        }
+
+
+        .nav a:hover {
+
+            color: white;
+
+        }
+
+
+        /* ================= MAIN ================= */
+
+        .container {
+
+            width: 88%;
+
+            max-width: 1200px;
+
+            margin: 45px auto;
+
+        }
+
+
+        .title {
+
+            font-size: 30px;
+
+            font-weight: 700;
+
+            color: #102a43;
+
+            margin-bottom: 8px;
+
+        }
+
+
+        .description {
+
+            color: #627d98;
+
+            font-size: 15px;
+
+            margin-bottom: 30px;
+
+        }
+
+
+        /* ================= STATUS ================= */
+
+        .status-card {
+
+            background: white;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 10px;
+
+            padding: 28px;
+
+            margin-bottom: 25px;
+
+            box-shadow:
+                0 4px 15px rgba(16, 42, 67, 0.06);
+
+        }
+
+
+        .status-label {
+
+            font-size: 12px;
+
+            text-transform: uppercase;
+
+            letter-spacing: 1px;
+
+            color: #829ab1;
+
+            margin-bottom: 10px;
+
+        }
+
+
+        .status {
+
+            display: inline-block;
+
+            padding: 9px 16px;
+
+            border-radius: 5px;
+
+            background: #fff4db;
+
+            color: #8a5a00;
+
+            font-size: 15px;
+
+            font-weight: 700;
+
+            margin-bottom: 12px;
+
+        }
+
+
+        .message {
+
+            color: #627d98;
+
+            font-size: 14px;
+
+            line-height: 1.6;
+
+        }
+
+
+        .filename {
+
+            margin-top: 15px;
+
+            font-size: 13px;
+
+            color: #486581;
+
+        }
+
+
+        /* ================= SECTION ================= */
+
+        .section {
+
+            background: white;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 10px;
+
+            padding: 28px;
+
+            margin-bottom: 25px;
+
+            box-shadow:
+                0 4px 15px rgba(16, 42, 67, 0.05);
+
+        }
+
+
+        .section-title {
+
+            font-size: 18px;
+
+            font-weight: 600;
+
+            color: #243b53;
+
+            margin-bottom: 20px;
+
+        }
+
+
+        /* ================= TABLE ================= */
+
+        table {
+
+            width: 100%;
+
+            border-collapse: collapse;
+
+        }
+
+
+        th {
+
+            text-align: left;
+
+            background: #f5f7fa;
+
+            padding: 13px;
+
+            font-size: 12px;
+
+            text-transform: uppercase;
+
+            letter-spacing: 0.5px;
+
+            color: #627d98;
+
+        }
+
+
+        td {
+
+            padding: 15px 13px;
+
+            border-bottom: 1px solid #edf2f7;
+
+            font-size: 14px;
+
+        }
+
+
+        tr:last-child td {
+
+            border-bottom: none;
+
+        }
+
+
+        .match {
+
+            color: #237a57;
+
+            font-weight: 600;
+
+        }
+
+
+        .mismatch {
+
+            color: #a15c00;
+
+            font-weight: 600;
+
+        }
+
+
+        .pending {
+
+            color: #627d98;
+
+            font-weight: 600;
+
+        }
+
+
+        /* ================= NOTICE ================= */
+
+        .notice {
+
+            background: #f8fafc;
+
+            border-left: 4px solid #486581;
+
+            padding: 18px;
+
+            line-height: 1.6;
+
+            font-size: 14px;
+
+            color: #486581;
+
+        }
+
+
+        /* ================= BUTTONS ================= */
+
+        .actions {
+
+            display: flex;
+
+            gap: 12px;
+
+            margin-top: 25px;
+
+        }
+
+
+        .button {
+
+            display: inline-block;
+
+            padding: 12px 20px;
+
+            border-radius: 6px;
+
+            text-decoration: none;
+
+            font-size: 14px;
+
+            font-weight: 600;
+
+        }
+
+
+        .primary {
+
+            background: #1f4e79;
+
+            color: white;
+
+        }
+
+
+        .secondary {
+
+            background: #edf2f7;
+
+            color: #334e68;
+
+        }
+
+
+        .primary:hover {
+
+            background: #163a5c;
+
+        }
+
+
+        .secondary:hover {
+
+            background: #d9e2ec;
+
+        }
+
+
+        /* ================= FOOTER ================= */
+
+        footer {
+
+            text-align: center;
+
+            padding: 30px;
+
+            color: #829ab1;
+
+            font-size: 12px;
+
+        }
+
+
+        /* ================= MOBILE ================= */
+
+        @media (max-width: 750px) {
+
+            .header {
+
+                height: auto;
+
+                padding: 18px 5%;
+
+                flex-direction: column;
+
+                gap: 15px;
+
+            }
+
+
+            .nav {
+
+                gap: 15px;
+
+            }
+
+
+            .container {
+
+                width: 92%;
+
+            }
+
+
+            .section {
+
+                padding: 18px;
+
+                overflow-x: auto;
+
+            }
+
+
+            table {
+
+                min-width: 700px;
+
+            }
+
+
+            .actions {
+
+                flex-direction: column;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+    <div class="brand">
+
+        LAND RECORD MANAGEMENT SYSTEM
+
+        <span>
+            Digital Land Record Verification Portal
+        </span>
+
+    </div>
+
+
+    <nav class="nav">
+
+        <a href="/">
+            Search
+        </a>
+
+        <a href="/verify">
+            Verify Document
+        </a>
+
+    </nav>
+
+</header>
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main class="container">
+
+
+    <h1 class="title">
+
+        Verification Result
+
+    </h1>
+
+
+    <p class="description">
+
+        Analysis summary for the submitted land document.
+
+    </p>
+
+
+    <!-- =================================================
+         STATUS
+    ================================================== -->
+
+    <div class="status-card">
+
+        <div class="status-label">
+
+            Verification Status
+
+        </div>
+
+
+        <div class="status">
+
+            {{ verification.status }}
+
+        </div>
+
+
+        <div class="message">
+
+            {{ verification.message }}
+
+        </div>
+
+
+        <div class="filename">
+
+            <strong>
+                Document:
+            </strong>
+
+            {{ verification.filename }}
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         FIELD COMPARISON
+    ================================================== -->
+
+    <div class="section">
+
+        <div class="section-title">
+
+            Land Record Field Comparison
+
+        </div>
+
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        Field
+                    </th>
+
+                    <th>
+                        Trusted Record
+                    </th>
+
+                    <th>
+                        Uploaded Document
+                    </th>
+
+                    <th>
+                        Status
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                {% for field in verification.fields %}
+
+                <tr>
+
+                    <td>
+                        <strong>
+                            {{ field.name }}
+                        </strong>
+                    </td>
+
+                    <td>
+                        {{ field.reference }}
+                    </td>
+
+                    <td>
+                        {{ field.uploaded }}
+                    </td>
+
+                    <td>
+
+                        {% if field.status == "Match" %}
+
+                            <span class="match">
+                                ✓ Match
+                            </span>
+
+                        {% elif field.status == "Mismatch" %}
+
+                            <span class="mismatch">
+                                ⚠ Mismatch
+                            </span>
+
+                        {% else %}
+
+                            <span class="pending">
+                                Pending
+                            </span>
+
+                        {% endif %}
+
+                    </td>
+
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- =================================================
+         IMPORTANT NOTICE
+    ================================================== -->
+
+    <div class="section">
+
+        <div class="section-title">
+
+            Verification Assessment
+
+        </div>
+
+
+        <div class="notice">
+
+            This system identifies potential inconsistencies
+            between an uploaded document and trusted land
+            records. A flagged document should be reviewed
+            by an authorized official before any legal or
+            administrative decision is made.
+
+        </div>
+
+
+        <div class="actions">
+
+            <a
+                href="/verify"
+                class="button primary"
+            >
+                Verify Another Document
+            </a>
+
+
+            <a
+                href="/"
+                class="button secondary"
+            >
+                Back to Search
+            </a>
+
+        </div>
+
+    </div>
+
+
+</main>
+
+
+<footer>
+
+    Land Record Management System
+    &nbsp;|&nbsp;
+    AI-Assisted Document Verification
+
+</footer>
+
+
+</body>
+
+</html>

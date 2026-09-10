@@ -1,0 +1,1938 @@
+{
+  "TAM_001_land_ownership_record": {
+    "filename": "tamil/TAM_001_land_ownership_record.png",
+    "language": "tamil",
+    "document_type": "land_ownership_record",
+    "validation_case": "DUPLICATE",
+    "ocr_challenges": [
+      "complex_background",
+      "faded_text",
+      "font_size_variation",
+      "handwritten_fields",
+      "mixed_language",
+      "stamp_overlap"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "S. Arunkumar",
+      "previous_owner": "C. Suresh Babu",
+      "survey_no": "47/2C",
+      "subdivision_no": "1A",
+      "patta_no": "PT-8313",
+      "registration_no": "REG/2013/09579",
+      "district": "Madurai",
+      "taluk": "Gingee Taluk",
+      "village": "Vadakku Vellur",
+      "area": "1.42 acres",
+      "land_type": "நஞ்சை (Wet)",
+      "registration_date": "01-02-2013",
+      "document_date": "15-01-2013",
+      "boundary": {
+        "north": "Survey No. 471 - Neighbouring Plot",
+        "south": "Survey No. 471 - Neighbouring Plot",
+        "east": "Vadakku Vellur Main Road",
+        "west": "Irrigation Channel"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "K. Ganesan"
+    },
+    "expected_database_record": {
+      "owner_name": "S. Arunkumar",
+      "previous_owner": "C. Suresh Babu",
+      "survey_no": "47/2C",
+      "subdivision_no": "1A",
+      "patta_no": "PT-8313",
+      "registration_no": "REG/2013/09579",
+      "district": "Madurai",
+      "taluk": "Gingee Taluk",
+      "village": "Vadakku Vellur",
+      "area": "1.42 acres",
+      "land_type": "நஞ்சை (Wet)",
+      "registration_date": "01-02-2013",
+      "document_date": "15-01-2013",
+      "boundary": {
+        "north": "Survey No. 471 - Neighbouring Plot",
+        "south": "Survey No. 471 - Neighbouring Plot",
+        "east": "Vadakku Vellur Main Road",
+        "west": "Irrigation Channel"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {
+      "duplicate_of": "tamil_1"
+    },
+    "expected_validation_result": "DUPLICATE",
+    "notes": "This document's core identity (owner, survey number, village, area) is identical to another document in this dataset -- a duplicate property record."
+  },
+  "TAM_002_patta_ror_record": {
+    "filename": "tamil/TAM_002_patta_ror_record.png",
+    "language": "tamil",
+    "document_type": "patta_ror_record",
+    "validation_case": "DUPLICATE",
+    "ocr_challenges": [
+      "faded_text",
+      "stamp_overlap",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "S. Arunkumar",
+      "previous_owner": "D. Valarmathi",
+      "survey_no": "47/2C",
+      "subdivision_no": "1A",
+      "patta_no": "PT-1963",
+      "registration_no": "REG/2011/07808",
+      "district": "Madurai",
+      "taluk": "Gingee Taluk",
+      "village": "Vadakku Vellur",
+      "area": "1.42 acres",
+      "land_type": "நஞ்சை (Wet)",
+      "registration_date": "09-10-2011",
+      "document_date": "21-09-2011",
+      "boundary": {
+        "north": "Survey No. 471 - Neighbouring Plot",
+        "south": "Survey No. 471 - Neighbouring Plot",
+        "east": "Vadakku Vellur Main Road",
+        "west": "Irrigation Channel"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "K. Ganesan"
+    },
+    "expected_database_record": {
+      "owner_name": "S. Arunkumar",
+      "previous_owner": "D. Valarmathi",
+      "survey_no": "47/2C",
+      "subdivision_no": "1A",
+      "patta_no": "PT-1963",
+      "registration_no": "REG/2011/07808",
+      "district": "Madurai",
+      "taluk": "Gingee Taluk",
+      "village": "Vadakku Vellur",
+      "area": "1.42 acres",
+      "land_type": "நஞ்சை (Wet)",
+      "registration_date": "09-10-2011",
+      "document_date": "21-09-2011",
+      "boundary": {
+        "north": "Survey No. 471 - Neighbouring Plot",
+        "south": "Survey No. 471 - Neighbouring Plot",
+        "east": "Vadakku Vellur Main Road",
+        "west": "Irrigation Channel"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {
+      "duplicate_of": "tamil_0"
+    },
+    "expected_validation_result": "DUPLICATE",
+    "notes": "This document's core identity (owner, survey number, village, area) is identical to another document in this dataset -- a duplicate property record."
+  },
+  "TAM_003_sale_deed_summary": {
+    "filename": "tamil/TAM_003_sale_deed_summary.png",
+    "language": "tamil",
+    "document_type": "sale_deed_summary",
+    "validation_case": "AREA_MISMATCH",
+    "ocr_challenges": [
+      "complex_background",
+      "handwritten_fields",
+      "mixed_language",
+      "stamp_overlap"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "C. Suresh Babu",
+      "previous_owner": "T. Selvi Murugan",
+      "survey_no": "203/4B",
+      "subdivision_no": "3A1",
+      "patta_no": "PT-2511",
+      "registration_no": "REG/2012/05341",
+      "district": "Erode",
+      "taluk": "Lalgudi Taluk",
+      "village": "Karungal Colony",
+      "area": "1.41 acres",
+      "land_type": "தோட்டம் (Garden)",
+      "registration_date": "04-08-2012",
+      "document_date": "01-08-2012",
+      "boundary": {
+        "north": "Common Grazing Land",
+        "south": "Seasonal Water Course",
+        "east": "Government Poramboke Land",
+        "west": "Karungal Colony Main Road"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "K. Ganesan"
+    },
+    "expected_database_record": {
+      "owner_name": "C. Suresh Babu",
+      "previous_owner": "T. Selvi Murugan",
+      "survey_no": "203/4B",
+      "subdivision_no": "3A1",
+      "patta_no": "PT-2511",
+      "registration_no": "REG/2012/05341",
+      "district": "Erode",
+      "taluk": "Lalgudi Taluk",
+      "village": "Karungal Colony",
+      "area": "2.26 acres",
+      "land_type": "தோட்டம் (Garden)",
+      "registration_date": "04-08-2012",
+      "document_date": "01-08-2012",
+      "boundary": {
+        "north": "Common Grazing Land",
+        "south": "Seasonal Water Course",
+        "east": "Government Poramboke Land",
+        "west": "Karungal Colony Main Road"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [
+      "area"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "AREA_MISMATCH",
+    "notes": "Document states area as 1.41 acres but the database record shows 2.26 acres."
+  },
+  "TAM_004_property_registration_extract": {
+    "filename": "tamil/TAM_004_property_registration_extract.png",
+    "language": "tamil",
+    "document_type": "property_registration_extract",
+    "validation_case": "VALID",
+    "ocr_challenges": [
+      "complex_background",
+      "faded_text",
+      "handwritten_fields",
+      "mixed_language",
+      "rotation_skew",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "M. Karthikeyan",
+      "previous_owner": "T. Selvi Murugan",
+      "survey_no": "339/2A",
+      "subdivision_no": "1C",
+      "patta_no": "PT-8647",
+      "registration_no": "REG/2017/09866",
+      "district": "Madurai",
+      "taluk": "Melur Taluk",
+      "village": "Karungal Colony",
+      "area": "2.48 acres",
+      "land_type": "புன்செய் (Dry)",
+      "registration_date": "10-06-2017",
+      "document_date": "21-05-2017",
+      "boundary": {
+        "north": "Irrigation Channel",
+        "south": "Plot belonging to Murugan (Synthetic)",
+        "east": "Common Grazing Land",
+        "west": "Survey No. 253 - Neighbouring Plot"
+      },
+      "encumbrance": "encumbered",
+      "officer": "S. Balasubramaniam"
+    },
+    "expected_database_record": {
+      "owner_name": "M. Karthikeyan",
+      "previous_owner": "T. Selvi Murugan",
+      "survey_no": "339/2A",
+      "subdivision_no": "1C",
+      "patta_no": "PT-8647",
+      "registration_no": "REG/2017/09866",
+      "district": "Madurai",
+      "taluk": "Melur Taluk",
+      "village": "Karungal Colony",
+      "area": "2.48 acres",
+      "land_type": "புன்செய் (Dry)",
+      "registration_date": "10-06-2017",
+      "document_date": "21-05-2017",
+      "boundary": {
+        "north": "Irrigation Channel",
+        "south": "Plot belonging to Murugan (Synthetic)",
+        "east": "Common Grazing Land",
+        "west": "Survey No. 253 - Neighbouring Plot"
+      },
+      "encumbrance": "encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "VALID",
+    "notes": "All key fields on the document match the database exactly."
+  },
+  "TAM_005_land_transfer_record": {
+    "filename": "tamil/TAM_005_land_transfer_record.png",
+    "language": "tamil",
+    "document_type": "land_transfer_record",
+    "validation_case": "OWNER_MISMATCH",
+    "ocr_challenges": [
+      "complex_background",
+      "font_size_variation",
+      "handwritten_signature",
+      "mixed_language",
+      "poor_scan",
+      "rotation_skew"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "C. Suresh Babu",
+      "previous_owner": "V. Ramanathan",
+      "survey_no": "281/2B",
+      "subdivision_no": "3A1",
+      "patta_no": "PT-4865",
+      "registration_no": "REG/2016/06189",
+      "district": "Tiruchirappalli",
+      "taluk": "Mettupalayam Taluk",
+      "village": "Ponneri Agraharam",
+      "area": "3000 sq.ft",
+      "land_type": "வீட்டு மனை (Housesite)",
+      "registration_date": "20-08-2016",
+      "document_date": "16-08-2016",
+      "boundary": {
+        "north": "Village Panchayat Road",
+        "south": "Government Poramboke Land",
+        "east": "Plot belonging to Basha (Synthetic)",
+        "west": "Irrigation Channel"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "S. Balasubramaniam"
+    },
+    "expected_database_record": {
+      "owner_name": "M. Karthikeyan",
+      "previous_owner": "V. Ramanathan",
+      "survey_no": "281/2B",
+      "subdivision_no": "3A1",
+      "patta_no": "PT-4865",
+      "registration_no": "REG/2016/06189",
+      "district": "Tiruchirappalli",
+      "taluk": "Mettupalayam Taluk",
+      "village": "Ponneri Agraharam",
+      "area": "3000 sq.ft",
+      "land_type": "வீட்டு மனை (Housesite)",
+      "registration_date": "20-08-2016",
+      "document_date": "16-08-2016",
+      "boundary": {
+        "north": "Village Panchayat Road",
+        "south": "Government Poramboke Land",
+        "east": "Plot belonging to Basha (Synthetic)",
+        "west": "Irrigation Channel"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [
+      "owner_name"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "OWNER_MISMATCH",
+    "notes": "Document owner name 'C. Suresh Babu' does not match database owner 'M. Karthikeyan'."
+  },
+  "TAM_006_mutation_record": {
+    "filename": "tamil/TAM_006_mutation_record.png",
+    "language": "tamil",
+    "document_type": "mutation_record",
+    "validation_case": "MISSING_FIELD",
+    "ocr_challenges": [
+      "mixed_language",
+      "poor_scan",
+      "stamp_overlap",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "T. Selvi Murugan",
+      "previous_owner": "P. Rajendran",
+      "survey_no": "231/3A",
+      "subdivision_no": "",
+      "patta_no": "PT-5208",
+      "registration_no": "REG/2022/03420",
+      "district": "Tiruchirappalli",
+      "taluk": "Gingee Taluk",
+      "village": "Karungal Colony",
+      "area": "1.55 acres",
+      "land_type": "தோட்டம் (Garden)",
+      "registration_date": "09-02-2022",
+      "document_date": "23-01-2022",
+      "boundary": {
+        "north": "Government Poramboke Land",
+        "south": "Irrigation Channel",
+        "east": "Plot belonging to Basha (Synthetic)",
+        "west": "Irrigation Channel"
+      },
+      "encumbrance": "encumbered",
+      "officer": "S. Balasubramaniam"
+    },
+    "expected_database_record": {
+      "owner_name": "T. Selvi Murugan",
+      "previous_owner": "P. Rajendran",
+      "survey_no": "231/3A",
+      "subdivision_no": "2A",
+      "patta_no": "PT-5208",
+      "registration_no": "REG/2022/03420",
+      "district": "Tiruchirappalli",
+      "taluk": "Gingee Taluk",
+      "village": "Karungal Colony",
+      "area": "1.55 acres",
+      "land_type": "தோட்டம் (Garden)",
+      "registration_date": "09-02-2022",
+      "document_date": "23-01-2022",
+      "boundary": {
+        "north": "Government Poramboke Land",
+        "south": "Irrigation Channel",
+        "east": "Plot belonging to Basha (Synthetic)",
+        "west": "Irrigation Channel"
+      },
+      "encumbrance": "encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [
+      "subdivision_no"
+    ],
+    "extra": {},
+    "expected_validation_result": "MISSING_FIELD",
+    "notes": "The 'subdivision_no' field is blank / illegible on the document but has a value in the database."
+  },
+  "HIN_007_land_ownership_record": {
+    "filename": "hindi/HIN_007_land_ownership_record.png",
+    "language": "hindi",
+    "document_type": "land_ownership_record",
+    "validation_case": "VALID",
+    "ocr_challenges": [
+      "complex_background",
+      "font_size_variation",
+      "poor_scan",
+      "uneven_lighting"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Kiran Bala Devi",
+      "previous_owner": "Devendra Chauhan",
+      "survey_no": "95/4C",
+      "subdivision_no": "1C",
+      "patta_no": "KH-9019",
+      "registration_no": "REG/2015/02913",
+      "district": "Lucknow",
+      "taluk": "Sikandra Tehsil",
+      "village": "Devi Nagar Purwa",
+      "area": "1.28 acres",
+      "land_type": "असिंचित भूमि (Dry)",
+      "registration_date": "09-12-2015",
+      "document_date": "19-11-2015",
+      "boundary": {
+        "north": "Seasonal Water Course",
+        "south": "Plot belonging to Peter (Synthetic)",
+        "east": "Survey No. 245 - Neighbouring Plot",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "encumbered",
+      "officer": "Om Prakash Dubey"
+    },
+    "expected_database_record": {
+      "owner_name": "Kiran Bala Devi",
+      "previous_owner": "Devendra Chauhan",
+      "survey_no": "95/4C",
+      "subdivision_no": "1C",
+      "patta_no": "KH-9019",
+      "registration_no": "REG/2015/02913",
+      "district": "Lucknow",
+      "taluk": "Sikandra Tehsil",
+      "village": "Devi Nagar Purwa",
+      "area": "1.28 acres",
+      "land_type": "असिंचित भूमि (Dry)",
+      "registration_date": "09-12-2015",
+      "document_date": "19-11-2015",
+      "boundary": {
+        "north": "Seasonal Water Course",
+        "south": "Plot belonging to Peter (Synthetic)",
+        "east": "Survey No. 245 - Neighbouring Plot",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "VALID",
+    "notes": "All key fields on the document match the database exactly."
+  },
+  "HIN_008_patta_ror_record": {
+    "filename": "hindi/HIN_008_patta_ror_record.png",
+    "language": "hindi",
+    "document_type": "patta_ror_record",
+    "validation_case": "SURVEY_MISMATCH",
+    "ocr_challenges": [
+      "faded_text",
+      "font_size_variation",
+      "mixed_language",
+      "rotation_skew",
+      "stamp_overlap"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Anjali Mishra",
+      "previous_owner": "Sunita Verma",
+      "survey_no": "31/4B",
+      "subdivision_no": "2A",
+      "patta_no": "KH-1994",
+      "registration_no": "REG/2016/07111",
+      "district": "Agra",
+      "taluk": "Chail Tehsil",
+      "village": "Basantpur Majra",
+      "area": "2.52 acres",
+      "land_type": "सिंचित भूमि (Wet)",
+      "registration_date": "03-01-2017",
+      "document_date": "30-12-2016",
+      "boundary": {
+        "north": "Seasonal Water Course",
+        "south": "Government Poramboke Land",
+        "east": "Plot belonging to Murugan (Synthetic)",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Om Prakash Dubey"
+    },
+    "expected_database_record": {
+      "owner_name": "Anjali Mishra",
+      "previous_owner": "Sunita Verma",
+      "survey_no": "31/1A",
+      "subdivision_no": "2A",
+      "patta_no": "KH-1994",
+      "registration_no": "REG/2016/07111",
+      "district": "Agra",
+      "taluk": "Chail Tehsil",
+      "village": "Basantpur Majra",
+      "area": "2.52 acres",
+      "land_type": "सिंचित भूमि (Wet)",
+      "registration_date": "03-01-2017",
+      "document_date": "30-12-2016",
+      "boundary": {
+        "north": "Seasonal Water Course",
+        "south": "Government Poramboke Land",
+        "east": "Plot belonging to Murugan (Synthetic)",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [
+      "survey_no"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "SURVEY_MISMATCH",
+    "notes": "Document survey number '31/4B' does not match database survey number '31/1A'."
+  },
+  "HIN_009_sale_deed_summary": {
+    "filename": "hindi/HIN_009_sale_deed_summary.png",
+    "language": "hindi",
+    "document_type": "sale_deed_summary",
+    "validation_case": "MULTIPLE_CONFLICT",
+    "ocr_challenges": [
+      "complex_background",
+      "handwritten_fields",
+      "poor_scan",
+      "stamp_overlap",
+      "uneven_lighting"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Rekha Saxena",
+      "previous_owner": "Sunita Verma",
+      "survey_no": "200/2C",
+      "subdivision_no": "2B",
+      "patta_no": "KH-9406",
+      "registration_no": "REG/2008/03673",
+      "district": "Agra",
+      "taluk": "Chail Tehsil",
+      "village": "Shivpuri Kheda",
+      "area": "3100 sq.ft",
+      "land_type": "आवासीय भूमि (Housesite)",
+      "registration_date": "21-04-2008",
+      "document_date": "08-04-2008",
+      "boundary": {
+        "north": "Plot belonging to Peter (Synthetic)",
+        "south": "Irrigation Channel",
+        "east": "Survey No. 268 - Neighbouring Plot",
+        "west": "Government Poramboke Land"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Om Prakash Dubey"
+    },
+    "expected_database_record": {
+      "owner_name": "Neha Singh Rathore",
+      "previous_owner": "Sunita Verma",
+      "survey_no": "202/2C",
+      "subdivision_no": "2B",
+      "patta_no": "KH-9406",
+      "registration_no": "REG/2008/03673",
+      "district": "Agra",
+      "taluk": "Chail Tehsil",
+      "village": "Shivpuri Kheda",
+      "area": "2600 sq.ft",
+      "land_type": "आवासीय भूमि (Housesite)",
+      "registration_date": "21-04-2008",
+      "document_date": "08-04-2008",
+      "boundary": {
+        "north": "Plot belonging to Peter (Synthetic)",
+        "south": "Irrigation Channel",
+        "east": "Survey No. 268 - Neighbouring Plot",
+        "west": "Government Poramboke Land"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [
+      "area",
+      "owner_name",
+      "survey_no"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "MULTIPLE_CONFLICT",
+    "notes": "Multiple fields on the document (area, owner_name, survey_no) disagree with the database."
+  },
+  "HIN_010_property_registration_extract": {
+    "filename": "hindi/HIN_010_property_registration_extract.png",
+    "language": "hindi",
+    "document_type": "property_registration_extract",
+    "validation_case": "HISTORICAL_CONFLICT",
+    "ocr_challenges": [
+      "handwritten_fields",
+      "mixed_language",
+      "rotation_skew",
+      "stamp_overlap"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Vinod Kumar Yadav",
+      "previous_owner": "Neha Singh Rathore",
+      "survey_no": "242/2A",
+      "subdivision_no": "4B2",
+      "patta_no": "KH-5025",
+      "registration_no": "REG/2016/02017",
+      "district": "Agra",
+      "taluk": "Milak Tehsil",
+      "village": "Shivpuri Kheda",
+      "area": "3000 sq.ft",
+      "land_type": "आवासीय भूमि (Housesite)",
+      "registration_date": "08-09-2016",
+      "document_date": "29-08-2016",
+      "boundary": {
+        "north": "Village Panchayat Road",
+        "south": "Survey No. 57 - Neighbouring Plot",
+        "east": "Common Grazing Land",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Om Prakash Dubey"
+    },
+    "expected_database_record": {
+      "owner_name": "Vinod Kumar Yadav",
+      "previous_owner": "Neha Singh Rathore",
+      "survey_no": "242/2A",
+      "subdivision_no": "4B2",
+      "patta_no": "KH-5025",
+      "registration_no": "REG/2016/02017",
+      "district": "Agra",
+      "taluk": "Milak Tehsil",
+      "village": "Shivpuri Kheda",
+      "area": "3000 sq.ft",
+      "land_type": "आवासीय भूमि (Housesite)",
+      "registration_date": "08-09-2016",
+      "document_date": "29-08-2016",
+      "boundary": {
+        "north": "Village Panchayat Road",
+        "south": "Survey No. 57 - Neighbouring Plot",
+        "east": "Common Grazing Land",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {
+      "historical_record": {
+        "archived_owner_before_this_deed": "Mahesh Prajapati",
+        "archived_area": "3300 sq.ft",
+        "archive_year": "2003"
+      }
+    },
+    "expected_validation_result": "HISTORICAL_CONFLICT",
+    "notes": "Document and current database agree, but conflicts with the archived pre-2005 record which lists owner 'Mahesh Prajapati' and area 3300 sq.ft for this survey number."
+  },
+  "HIN_011_land_transfer_record": {
+    "filename": "hindi/HIN_011_land_transfer_record.png",
+    "language": "hindi",
+    "document_type": "land_transfer_record",
+    "validation_case": "LOW_OCR_QUALITY",
+    "ocr_challenges": [
+      "faded_text",
+      "handwritten_fields",
+      "handwritten_signature",
+      "mixed_language",
+      "noise",
+      "poor_scan",
+      "rotation_skew",
+      "uneven_lighting"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Neha Singh Rathore",
+      "previous_owner": "Rekha Saxena",
+      "survey_no": "328/2A",
+      "subdivision_no": "1A",
+      "patta_no": "KH-9149",
+      "registration_no": "REG/2014/01602",
+      "district": "Agra",
+      "taluk": "Kaimganj Tehsil",
+      "village": "Rampur Kalan",
+      "area": "2.41 acres",
+      "land_type": "सिंचित भूमि (Wet)",
+      "registration_date": "16-05-2014",
+      "document_date": "03-05-2014",
+      "boundary": {
+        "north": "Village Panchayat Road",
+        "south": "Rampur Kalan Main Road",
+        "east": "Common Grazing Land",
+        "west": "Village Panchayat Road"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Manisha Pathak"
+    },
+    "expected_database_record": {
+      "owner_name": "Neha Singh Rathore",
+      "previous_owner": "Rekha Saxena",
+      "survey_no": "328/2A",
+      "subdivision_no": "1A",
+      "patta_no": "KH-9149",
+      "registration_no": "REG/2014/01602",
+      "district": "Agra",
+      "taluk": "Kaimganj Tehsil",
+      "village": "Rampur Kalan",
+      "area": "2.41 acres",
+      "land_type": "सिंचित भूमि (Wet)",
+      "registration_date": "16-05-2014",
+      "document_date": "03-05-2014",
+      "boundary": {
+        "north": "Village Panchayat Road",
+        "south": "Rampur Kalan Main Road",
+        "east": "Common Grazing Land",
+        "west": "Village Panchayat Road"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "LOW_OCR_QUALITY",
+    "notes": "Document is intentionally degraded (noise, blur, faded ink, skew, uneven lighting, low scan quality) to stress-test OCR robustness. Field values otherwise match the database."
+  },
+  "HIN_012_mutation_record": {
+    "filename": "hindi/HIN_012_mutation_record.png",
+    "language": "hindi",
+    "document_type": "mutation_record",
+    "validation_case": "AREA_MISMATCH",
+    "ocr_challenges": [
+      "handwritten_fields",
+      "handwritten_signature",
+      "mixed_language",
+      "stamp_overlap",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Neha Singh Rathore",
+      "previous_owner": "Devendra Chauhan",
+      "survey_no": "393/1B",
+      "subdivision_no": "4B2",
+      "patta_no": "KH-6427",
+      "registration_no": "REG/2009/07982",
+      "district": "Lucknow",
+      "taluk": "Sikandra Tehsil",
+      "village": "Nangla Bharat",
+      "area": "3.49 acres",
+      "land_type": "बाग़ान भूमि (Garden)",
+      "registration_date": "23-11-2009",
+      "document_date": "05-11-2009",
+      "boundary": {
+        "north": "Irrigation Channel",
+        "south": "Survey No. 96 - Neighbouring Plot",
+        "east": "Village Panchayat Road",
+        "west": "Village Panchayat Road"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Manisha Pathak"
+    },
+    "expected_database_record": {
+      "owner_name": "Neha Singh Rathore",
+      "previous_owner": "Devendra Chauhan",
+      "survey_no": "393/1B",
+      "subdivision_no": "4B2",
+      "patta_no": "KH-6427",
+      "registration_no": "REG/2009/07982",
+      "district": "Lucknow",
+      "taluk": "Sikandra Tehsil",
+      "village": "Nangla Bharat",
+      "area": "4.35 acres",
+      "land_type": "बाग़ान भूमि (Garden)",
+      "registration_date": "23-11-2009",
+      "document_date": "05-11-2009",
+      "boundary": {
+        "north": "Irrigation Channel",
+        "south": "Survey No. 96 - Neighbouring Plot",
+        "east": "Village Panchayat Road",
+        "west": "Village Panchayat Road"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [
+      "area"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "AREA_MISMATCH",
+    "notes": "Document states area as 3.49 acres but the database record shows 4.35 acres."
+  },
+  "ENG_013_land_ownership_record": {
+    "filename": "english/ENG_013_land_ownership_record.png",
+    "language": "english",
+    "document_type": "land_ownership_record",
+    "validation_case": "VALID",
+    "ocr_challenges": [
+      "faded_text",
+      "font_size_variation",
+      "handwritten_fields",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Fatima Sheikh",
+      "previous_owner": "Rohan Mehta",
+      "survey_no": "21/4C",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-9657",
+      "registration_no": "REG/2010/08076",
+      "district": "Bhopal",
+      "taluk": "Kamptee Tehsil",
+      "village": "Bassi Kalan",
+      "area": "3.14 acres",
+      "land_type": "Wet / Irrigated Land",
+      "registration_date": "16-06-2010",
+      "document_date": "29-05-2010",
+      "boundary": {
+        "north": "Seasonal Water Course",
+        "south": "Plot belonging to Murugan (Synthetic)",
+        "east": "Irrigation Channel",
+        "west": "Plot belonging to Murugan (Synthetic)"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Officer A. Kulkarni"
+    },
+    "expected_database_record": {
+      "owner_name": "Fatima Sheikh",
+      "previous_owner": "Rohan Mehta",
+      "survey_no": "21/4C",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-9657",
+      "registration_no": "REG/2010/08076",
+      "district": "Bhopal",
+      "taluk": "Kamptee Tehsil",
+      "village": "Bassi Kalan",
+      "area": "3.14 acres",
+      "land_type": "Wet / Irrigated Land",
+      "registration_date": "16-06-2010",
+      "document_date": "29-05-2010",
+      "boundary": {
+        "north": "Seasonal Water Course",
+        "south": "Plot belonging to Murugan (Synthetic)",
+        "east": "Irrigation Channel",
+        "west": "Plot belonging to Murugan (Synthetic)"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "VALID",
+    "notes": "All key fields on the document match the database exactly."
+  },
+  "ENG_014_patta_ror_record": {
+    "filename": "english/ENG_014_patta_ror_record.png",
+    "language": "english",
+    "document_type": "patta_ror_record",
+    "validation_case": "OWNER_MISMATCH",
+    "ocr_challenges": [
+      "complex_background",
+      "handwritten_fields",
+      "mixed_language",
+      "poor_scan",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Arjun Menon",
+      "previous_owner": "Priyanka Chawla",
+      "survey_no": "459/3A",
+      "subdivision_no": "3A1",
+      "patta_no": "PT-8395",
+      "registration_no": "REG/2016/01113",
+      "district": "Bhopal",
+      "taluk": "Berasia Tehsil",
+      "village": "Ganeshpur Extension",
+      "area": "0.87 acres",
+      "land_type": "Dry Land",
+      "registration_date": "13-01-2016",
+      "document_date": "08-01-2016",
+      "boundary": {
+        "north": "Government Poramboke Land",
+        "south": "Seasonal Water Course",
+        "east": "Village Panchayat Road",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Officer S. Fernandes"
+    },
+    "expected_database_record": {
+      "owner_name": "Nandini Rao",
+      "previous_owner": "Priyanka Chawla",
+      "survey_no": "459/3A",
+      "subdivision_no": "3A1",
+      "patta_no": "PT-8395",
+      "registration_no": "REG/2016/01113",
+      "district": "Bhopal",
+      "taluk": "Berasia Tehsil",
+      "village": "Ganeshpur Extension",
+      "area": "0.87 acres",
+      "land_type": "Dry Land",
+      "registration_date": "13-01-2016",
+      "document_date": "08-01-2016",
+      "boundary": {
+        "north": "Government Poramboke Land",
+        "south": "Seasonal Water Course",
+        "east": "Village Panchayat Road",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [
+      "owner_name"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "OWNER_MISMATCH",
+    "notes": "Document owner name 'Arjun Menon' does not match database owner 'Nandini Rao'."
+  },
+  "ENG_015_sale_deed_summary": {
+    "filename": "english/ENG_015_sale_deed_summary.png",
+    "language": "english",
+    "document_type": "sale_deed_summary",
+    "validation_case": "VALID",
+    "ocr_challenges": [
+      "font_size_variation",
+      "handwritten_fields",
+      "poor_scan",
+      "stamp_overlap"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Sanjay Kapoor",
+      "previous_owner": "Aditya Kulkarni",
+      "survey_no": "58/4A",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-5504",
+      "registration_no": "REG/2012/08190",
+      "district": "Jaipur Rural",
+      "taluk": "Amber Tehsil",
+      "village": "Bassi Kalan",
+      "area": "1200 sq.ft",
+      "land_type": "Residential Housesite",
+      "registration_date": "26-08-2012",
+      "document_date": "17-08-2012",
+      "boundary": {
+        "north": "Plot belonging to Murugan (Synthetic)",
+        "south": "Irrigation Channel",
+        "east": "Survey No. 312 - Neighbouring Plot",
+        "west": "Survey No. 312 - Neighbouring Plot"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Officer S. Fernandes"
+    },
+    "expected_database_record": {
+      "owner_name": "Sanjay Kapoor",
+      "previous_owner": "Aditya Kulkarni",
+      "survey_no": "58/4A",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-5504",
+      "registration_no": "REG/2012/08190",
+      "district": "Jaipur Rural",
+      "taluk": "Amber Tehsil",
+      "village": "Bassi Kalan",
+      "area": "1200 sq.ft",
+      "land_type": "Residential Housesite",
+      "registration_date": "26-08-2012",
+      "document_date": "17-08-2012",
+      "boundary": {
+        "north": "Plot belonging to Murugan (Synthetic)",
+        "south": "Irrigation Channel",
+        "east": "Survey No. 312 - Neighbouring Plot",
+        "west": "Survey No. 312 - Neighbouring Plot"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "VALID",
+    "notes": "All key fields on the document match the database exactly."
+  },
+  "ENG_016_property_registration_extract": {
+    "filename": "english/ENG_016_property_registration_extract.png",
+    "language": "english",
+    "document_type": "property_registration_extract",
+    "validation_case": "DUPLICATE",
+    "ocr_challenges": [
+      "noise",
+      "rotation_skew",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Siddappa Kori",
+      "previous_owner": "Fatima Sheikh",
+      "survey_no": "202/2A",
+      "subdivision_no": "2A",
+      "patta_no": "PT-1333",
+      "registration_no": "REG/2015/07270",
+      "district": "Mysuru",
+      "taluk": "Gokak Taluk",
+      "village": "Halebeedu Colony",
+      "area": "2.29 acres",
+      "land_type": "ತೋಟದ ಭೂಮಿ (Garden)",
+      "registration_date": "11-05-2015",
+      "document_date": "04-05-2015",
+      "boundary": {
+        "north": "Halebeedu Colony Main Road",
+        "south": "Common Grazing Land",
+        "east": "Common Grazing Land",
+        "west": "Halebeedu Colony Main Road"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Officer A. Kulkarni"
+    },
+    "expected_database_record": {
+      "owner_name": "Siddappa Kori",
+      "previous_owner": "Fatima Sheikh",
+      "survey_no": "202/2A",
+      "subdivision_no": "2A",
+      "patta_no": "PT-1333",
+      "registration_no": "REG/2015/07270",
+      "district": "Mysuru",
+      "taluk": "Gokak Taluk",
+      "village": "Halebeedu Colony",
+      "area": "2.29 acres",
+      "land_type": "ತೋಟದ ಭೂಮಿ (Garden)",
+      "registration_date": "11-05-2015",
+      "document_date": "04-05-2015",
+      "boundary": {
+        "north": "Halebeedu Colony Main Road",
+        "south": "Common Grazing Land",
+        "east": "Common Grazing Land",
+        "west": "Halebeedu Colony Main Road"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {
+      "duplicate_of": "kannada_3"
+    },
+    "expected_validation_result": "DUPLICATE",
+    "notes": "This document's core identity (owner, survey number, village, area) is identical to another document in this dataset -- a duplicate property record."
+  },
+  "ENG_017_land_transfer_record": {
+    "filename": "english/ENG_017_land_transfer_record.png",
+    "language": "english",
+    "document_type": "land_transfer_record",
+    "validation_case": "SURVEY_MISMATCH",
+    "ocr_challenges": [
+      "font_size_variation",
+      "handwritten_fields",
+      "handwritten_signature",
+      "noise",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Priyanka Chawla",
+      "previous_owner": "Rohan Mehta",
+      "survey_no": "460/1A",
+      "subdivision_no": "1C",
+      "patta_no": "PT-3753",
+      "registration_no": "REG/2008/09383",
+      "district": "Jaipur Rural",
+      "taluk": "Sinnar Taluka",
+      "village": "Kharadi Gaon",
+      "area": "4.11 acres",
+      "land_type": "Garden Land",
+      "registration_date": "21-03-2008",
+      "document_date": "19-03-2008",
+      "boundary": {
+        "north": "Government Poramboke Land",
+        "south": "Common Grazing Land",
+        "east": "Irrigation Channel",
+        "west": "Plot belonging to Govindarajan (Synthetic)"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Officer N. Bhatt"
+    },
+    "expected_database_record": {
+      "owner_name": "Priyanka Chawla",
+      "previous_owner": "Rohan Mehta",
+      "survey_no": "460/4B",
+      "subdivision_no": "1C",
+      "patta_no": "PT-3753",
+      "registration_no": "REG/2008/09383",
+      "district": "Jaipur Rural",
+      "taluk": "Sinnar Taluka",
+      "village": "Kharadi Gaon",
+      "area": "4.11 acres",
+      "land_type": "Garden Land",
+      "registration_date": "21-03-2008",
+      "document_date": "19-03-2008",
+      "boundary": {
+        "north": "Government Poramboke Land",
+        "south": "Common Grazing Land",
+        "east": "Irrigation Channel",
+        "west": "Plot belonging to Govindarajan (Synthetic)"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [
+      "survey_no"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "SURVEY_MISMATCH",
+    "notes": "Document survey number '460/1A' does not match database survey number '460/4B'."
+  },
+  "ENG_018_mutation_record": {
+    "filename": "english/ENG_018_mutation_record.png",
+    "language": "english",
+    "document_type": "mutation_record",
+    "validation_case": "LOW_OCR_QUALITY",
+    "ocr_challenges": [
+      "faded_text",
+      "font_size_variation",
+      "mixed_language",
+      "noise",
+      "poor_scan",
+      "rotation_skew",
+      "text_near_border",
+      "uneven_lighting"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Aditya Kulkarni",
+      "previous_owner": "Sanjay Kapoor",
+      "survey_no": "135/4B",
+      "subdivision_no": "2B",
+      "patta_no": "PT-8503",
+      "registration_no": "REG/2011/07296",
+      "district": "Bhopal",
+      "taluk": "Amber Tehsil",
+      "village": "Kharadi Gaon",
+      "area": "1200 sq.ft",
+      "land_type": "Residential Housesite",
+      "registration_date": "21-05-2011",
+      "document_date": "03-05-2011",
+      "boundary": {
+        "north": "Plot belonging to Murugan (Synthetic)",
+        "south": "Irrigation Channel",
+        "east": "Plot belonging to Murugan (Synthetic)",
+        "west": "Irrigation Channel"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "Officer S. Fernandes"
+    },
+    "expected_database_record": {
+      "owner_name": "Aditya Kulkarni",
+      "previous_owner": "Sanjay Kapoor",
+      "survey_no": "135/4B",
+      "subdivision_no": "2B",
+      "patta_no": "PT-8503",
+      "registration_no": "REG/2011/07296",
+      "district": "Bhopal",
+      "taluk": "Amber Tehsil",
+      "village": "Kharadi Gaon",
+      "area": "1200 sq.ft",
+      "land_type": "Residential Housesite",
+      "registration_date": "21-05-2011",
+      "document_date": "03-05-2011",
+      "boundary": {
+        "north": "Plot belonging to Murugan (Synthetic)",
+        "south": "Irrigation Channel",
+        "east": "Plot belonging to Murugan (Synthetic)",
+        "west": "Irrigation Channel"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "LOW_OCR_QUALITY",
+    "notes": "Document is intentionally degraded (noise, blur, faded ink, skew, uneven lighting, low scan quality) to stress-test OCR robustness. Field values otherwise match the database."
+  },
+  "TEL_019_land_ownership_record": {
+    "filename": "telugu/TEL_019_land_ownership_record.png",
+    "language": "telugu",
+    "document_type": "land_ownership_record",
+    "validation_case": "OWNER_MISMATCH",
+    "ocr_challenges": [
+      "faded_text",
+      "handwritten_fields",
+      "handwritten_signature",
+      "mixed_language",
+      "noise"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Anitha Kumari V.",
+      "previous_owner": "Padma Sri K.",
+      "survey_no": "168/1A",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-6264",
+      "registration_no": "REG/2015/06544",
+      "district": "Krishna",
+      "taluk": "Gudur Mandal",
+      "village": "Peddapalli Colony",
+      "area": "1.26 acres",
+      "land_type": "మెట్ట భూమి (Dry)",
+      "registration_date": "05-02-2015",
+      "document_date": "29-01-2015",
+      "boundary": {
+        "north": "Seasonal Water Course",
+        "south": "Peddapalli Colony Main Road",
+        "east": "Village Panchayat Road",
+        "west": "Peddapalli Colony Main Road"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "G. Satyanarayana"
+    },
+    "expected_database_record": {
+      "owner_name": "Naresh Reddy G.",
+      "previous_owner": "Padma Sri K.",
+      "survey_no": "168/1A",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-6264",
+      "registration_no": "REG/2015/06544",
+      "district": "Krishna",
+      "taluk": "Gudur Mandal",
+      "village": "Peddapalli Colony",
+      "area": "1.26 acres",
+      "land_type": "మెట్ట భూమి (Dry)",
+      "registration_date": "05-02-2015",
+      "document_date": "29-01-2015",
+      "boundary": {
+        "north": "Seasonal Water Course",
+        "south": "Peddapalli Colony Main Road",
+        "east": "Village Panchayat Road",
+        "west": "Peddapalli Colony Main Road"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [
+      "owner_name"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "OWNER_MISMATCH",
+    "notes": "Document owner name 'Anitha Kumari V.' does not match database owner 'Naresh Reddy G.'."
+  },
+  "TEL_020_patta_ror_record": {
+    "filename": "telugu/TEL_020_patta_ror_record.png",
+    "language": "telugu",
+    "document_type": "patta_ror_record",
+    "validation_case": "VALID",
+    "ocr_challenges": [
+      "handwritten_signature",
+      "stamp_overlap",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Naresh Reddy G.",
+      "previous_owner": "Venkata Ramana Rao",
+      "survey_no": "454/3B",
+      "subdivision_no": "2A",
+      "patta_no": "PT-6285",
+      "registration_no": "REG/2020/00532",
+      "district": "Khammam",
+      "taluk": "Kothagudem Mandal",
+      "village": "Nallapadu",
+      "area": "1.05 acres",
+      "land_type": "మెట్ట భూమి (Dry)",
+      "registration_date": "09-11-2020",
+      "document_date": "29-10-2020",
+      "boundary": {
+        "north": "Seasonal Water Course",
+        "south": "Nallapadu Main Road",
+        "east": "Irrigation Channel",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "P. Ramesh Babu"
+    },
+    "expected_database_record": {
+      "owner_name": "Naresh Reddy G.",
+      "previous_owner": "Venkata Ramana Rao",
+      "survey_no": "454/3B",
+      "subdivision_no": "2A",
+      "patta_no": "PT-6285",
+      "registration_no": "REG/2020/00532",
+      "district": "Khammam",
+      "taluk": "Kothagudem Mandal",
+      "village": "Nallapadu",
+      "area": "1.05 acres",
+      "land_type": "మెట్ట భూమి (Dry)",
+      "registration_date": "09-11-2020",
+      "document_date": "29-10-2020",
+      "boundary": {
+        "north": "Seasonal Water Course",
+        "south": "Nallapadu Main Road",
+        "east": "Irrigation Channel",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "VALID",
+    "notes": "All key fields on the document match the database exactly."
+  },
+  "TEL_021_sale_deed_summary": {
+    "filename": "telugu/TEL_021_sale_deed_summary.png",
+    "language": "telugu",
+    "document_type": "sale_deed_summary",
+    "validation_case": "MISSING_FIELD",
+    "ocr_challenges": [
+      "mixed_language",
+      "rotation_skew",
+      "stamp_overlap",
+      "uneven_lighting"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Chandra Sekhar M.",
+      "previous_owner": "Swathi Reddy P.",
+      "survey_no": "322/2C",
+      "subdivision_no": "",
+      "patta_no": "PT-4714",
+      "registration_no": "REG/2014/07956",
+      "district": "Guntur",
+      "taluk": "Gudur Mandal",
+      "village": "Ramannapet",
+      "area": "2200 sq.ft",
+      "land_type": "ఇంటి స్థలం (Housesite)",
+      "registration_date": "25-07-2014",
+      "document_date": "17-07-2014",
+      "boundary": {
+        "north": "Government Poramboke Land",
+        "south": "Irrigation Channel",
+        "east": "Seasonal Water Course",
+        "west": "Government Poramboke Land"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "P. Ramesh Babu"
+    },
+    "expected_database_record": {
+      "owner_name": "Chandra Sekhar M.",
+      "previous_owner": "Swathi Reddy P.",
+      "survey_no": "322/2C",
+      "subdivision_no": "1C",
+      "patta_no": "PT-4714",
+      "registration_no": "REG/2014/07956",
+      "district": "Guntur",
+      "taluk": "Gudur Mandal",
+      "village": "Ramannapet",
+      "area": "2200 sq.ft",
+      "land_type": "ఇంటి స్థలం (Housesite)",
+      "registration_date": "25-07-2014",
+      "document_date": "17-07-2014",
+      "boundary": {
+        "north": "Government Poramboke Land",
+        "south": "Irrigation Channel",
+        "east": "Seasonal Water Course",
+        "west": "Government Poramboke Land"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [
+      "subdivision_no"
+    ],
+    "extra": {},
+    "expected_validation_result": "MISSING_FIELD",
+    "notes": "The 'subdivision_no' field is blank / illegible on the document but has a value in the database."
+  },
+  "TEL_022_property_registration_extract": {
+    "filename": "telugu/TEL_022_property_registration_extract.png",
+    "language": "telugu",
+    "document_type": "property_registration_extract",
+    "validation_case": "SURVEY_MISMATCH",
+    "ocr_challenges": [
+      "complex_background",
+      "faded_text",
+      "font_size_variation",
+      "mixed_language"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Lakshmi Devi Ch.",
+      "previous_owner": "Padma Sri K.",
+      "survey_no": "320/4A",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-8235",
+      "registration_no": "REG/2008/03715",
+      "district": "Nellore",
+      "taluk": "Hanamkonda Mandal",
+      "village": "Nallapadu",
+      "area": "3.39 acres",
+      "land_type": "తోట భూమి (Garden)",
+      "registration_date": "27-04-2008",
+      "document_date": "18-04-2008",
+      "boundary": {
+        "north": "Nallapadu Main Road",
+        "south": "Seasonal Water Course",
+        "east": "Government Poramboke Land",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "G. Satyanarayana"
+    },
+    "expected_database_record": {
+      "owner_name": "Lakshmi Devi Ch.",
+      "previous_owner": "Padma Sri K.",
+      "survey_no": "321/4A",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-8235",
+      "registration_no": "REG/2008/03715",
+      "district": "Nellore",
+      "taluk": "Hanamkonda Mandal",
+      "village": "Nallapadu",
+      "area": "3.39 acres",
+      "land_type": "తోట భూమి (Garden)",
+      "registration_date": "27-04-2008",
+      "document_date": "18-04-2008",
+      "boundary": {
+        "north": "Nallapadu Main Road",
+        "south": "Seasonal Water Course",
+        "east": "Government Poramboke Land",
+        "west": "Seasonal Water Course"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [
+      "survey_no"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "SURVEY_MISMATCH",
+    "notes": "Document survey number '320/4A' does not match database survey number '321/4A'."
+  },
+  "TEL_023_land_transfer_record": {
+    "filename": "telugu/TEL_023_land_transfer_record.png",
+    "language": "telugu",
+    "document_type": "land_transfer_record",
+    "validation_case": "MULTIPLE_CONFLICT",
+    "ocr_challenges": [
+      "faded_text",
+      "font_size_variation",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Srinivasa Rao B.",
+      "previous_owner": "Jyothi Rani S.",
+      "survey_no": "362/2C",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-3914",
+      "registration_no": "REG/2013/00436",
+      "district": "Warangal",
+      "taluk": "Jagtial Mandal",
+      "village": "Muthukur Kotha Palli",
+      "area": "4.44 acres",
+      "land_type": "మెట్ట భూమి (Dry)",
+      "registration_date": "29-09-2013",
+      "document_date": "16-09-2013",
+      "boundary": {
+        "north": "Common Grazing Land",
+        "south": "Plot belonging to Peter (Synthetic)",
+        "east": "Seasonal Water Course",
+        "west": "Common Grazing Land"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "P. Ramesh Babu"
+    },
+    "expected_database_record": {
+      "owner_name": "Padma Sri K.",
+      "previous_owner": "Jyothi Rani S.",
+      "survey_no": "362/2C",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-3914",
+      "registration_no": "REG/2013/00436",
+      "district": "Warangal",
+      "taluk": "Jagtial Mandal",
+      "village": "Muthukur Kotha Palli",
+      "area": "3.03 acres",
+      "land_type": "మెట్ట భూమి (Dry)",
+      "registration_date": "29-09-2013",
+      "document_date": "16-09-2013",
+      "boundary": {
+        "north": "Common Grazing Land",
+        "south": "Plot belonging to Peter (Synthetic)",
+        "east": "Seasonal Water Course",
+        "west": "Common Grazing Land"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [
+      "area",
+      "owner_name"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "MULTIPLE_CONFLICT",
+    "notes": "Multiple fields on the document (area, owner_name) disagree with the database."
+  },
+  "TEL_024_mutation_record": {
+    "filename": "telugu/TEL_024_mutation_record.png",
+    "language": "telugu",
+    "document_type": "mutation_record",
+    "validation_case": "LOW_OCR_QUALITY",
+    "ocr_challenges": [
+      "faded_text",
+      "font_size_variation",
+      "handwritten_signature",
+      "mixed_language",
+      "noise",
+      "poor_scan",
+      "rotation_skew",
+      "stamp_overlap",
+      "uneven_lighting"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Sudheer Babu T.",
+      "previous_owner": "Lakshmi Devi Ch.",
+      "survey_no": "72/1B",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-6348",
+      "registration_no": "REG/2021/00941",
+      "district": "Warangal",
+      "taluk": "Tenali Mandal",
+      "village": "Nallapadu",
+      "area": "0.79 acres",
+      "land_type": "తోట భూమి (Garden)",
+      "registration_date": "16-04-2021",
+      "document_date": "31-03-2021",
+      "boundary": {
+        "north": "Plot belonging to Ismail (Synthetic)",
+        "south": "Plot belonging to Ismail (Synthetic)",
+        "east": "Nallapadu Main Road",
+        "west": "Nallapadu Main Road"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "G. Satyanarayana"
+    },
+    "expected_database_record": {
+      "owner_name": "Sudheer Babu T.",
+      "previous_owner": "Lakshmi Devi Ch.",
+      "survey_no": "72/1B",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-6348",
+      "registration_no": "REG/2021/00941",
+      "district": "Warangal",
+      "taluk": "Tenali Mandal",
+      "village": "Nallapadu",
+      "area": "0.79 acres",
+      "land_type": "తోట భూమి (Garden)",
+      "registration_date": "16-04-2021",
+      "document_date": "31-03-2021",
+      "boundary": {
+        "north": "Plot belonging to Ismail (Synthetic)",
+        "south": "Plot belonging to Ismail (Synthetic)",
+        "east": "Nallapadu Main Road",
+        "west": "Nallapadu Main Road"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "LOW_OCR_QUALITY",
+    "notes": "Document is intentionally degraded (noise, blur, faded ink, skew, uneven lighting, low scan quality) to stress-test OCR robustness. Field values otherwise match the database."
+  },
+  "KAN_025_land_ownership_record": {
+    "filename": "kannada/KAN_025_land_ownership_record.png",
+    "language": "kannada",
+    "document_type": "land_ownership_record",
+    "validation_case": "HISTORICAL_CONFLICT",
+    "ocr_challenges": [
+      "faded_text",
+      "font_size_variation",
+      "handwritten_signature",
+      "mixed_language",
+      "stamp_overlap"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Ramesh Naik",
+      "previous_owner": "Sowmya Kulkarni",
+      "survey_no": "382/4A",
+      "subdivision_no": "1C",
+      "patta_no": "PT-2194",
+      "registration_no": "REG/2009/04598",
+      "district": "Tumakuru",
+      "taluk": "Nanjangud Taluk",
+      "village": "Doddaballapura Extn.",
+      "area": "1200 sq.ft",
+      "land_type": "ಮನೆ ನಿವೇಶನ (Housesite)",
+      "registration_date": "14-01-2009",
+      "document_date": "03-01-2009",
+      "boundary": {
+        "north": "Doddaballapura Extn. Main Road",
+        "south": "Survey No. 204 - Neighbouring Plot",
+        "east": "Common Grazing Land",
+        "west": "Village Panchayat Road"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "B.K. Vasanti"
+    },
+    "expected_database_record": {
+      "owner_name": "Ramesh Naik",
+      "previous_owner": "Sowmya Kulkarni",
+      "survey_no": "382/4A",
+      "subdivision_no": "1C",
+      "patta_no": "PT-2194",
+      "registration_no": "REG/2009/04598",
+      "district": "Tumakuru",
+      "taluk": "Nanjangud Taluk",
+      "village": "Doddaballapura Extn.",
+      "area": "1200 sq.ft",
+      "land_type": "ಮನೆ ನಿವೇಶನ (Housesite)",
+      "registration_date": "14-01-2009",
+      "document_date": "03-01-2009",
+      "boundary": {
+        "north": "Doddaballapura Extn. Main Road",
+        "south": "Survey No. 204 - Neighbouring Plot",
+        "east": "Common Grazing Land",
+        "west": "Village Panchayat Road"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {
+      "historical_record": {
+        "archived_owner_before_this_deed": "Manjunath Gowda",
+        "archived_area": "1900 sq.ft",
+        "archive_year": "1993"
+      }
+    },
+    "expected_validation_result": "HISTORICAL_CONFLICT",
+    "notes": "Document and current database agree, but conflicts with the archived pre-2005 record which lists owner 'Manjunath Gowda' and area 1900 sq.ft for this survey number."
+  },
+  "KAN_026_patta_ror_record": {
+    "filename": "kannada/KAN_026_patta_ror_record.png",
+    "language": "kannada",
+    "document_type": "patta_ror_record",
+    "validation_case": "AREA_MISMATCH",
+    "ocr_challenges": [
+      "faded_text",
+      "handwritten_fields",
+      "mixed_language",
+      "text_near_border",
+      "uneven_lighting"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Deepa Shetty",
+      "previous_owner": "Siddappa Kori",
+      "survey_no": "19/3A",
+      "subdivision_no": "1A",
+      "patta_no": "PT-4811",
+      "registration_no": "REG/2019/03613",
+      "district": "Mysuru",
+      "taluk": "Gokak Taluk",
+      "village": "Yediyur Grama",
+      "area": "1800 sq.ft",
+      "land_type": "ಮನೆ ನಿವೇಶನ (Housesite)",
+      "registration_date": "06-09-2019",
+      "document_date": "24-08-2019",
+      "boundary": {
+        "north": "Irrigation Channel",
+        "south": "Village Panchayat Road",
+        "east": "Village Panchayat Road",
+        "west": "Common Grazing Land"
+      },
+      "encumbrance": "encumbered",
+      "officer": "T. Rangaswamy"
+    },
+    "expected_database_record": {
+      "owner_name": "Deepa Shetty",
+      "previous_owner": "Siddappa Kori",
+      "survey_no": "19/3A",
+      "subdivision_no": "1A",
+      "patta_no": "PT-4811",
+      "registration_no": "REG/2019/03613",
+      "district": "Mysuru",
+      "taluk": "Gokak Taluk",
+      "village": "Yediyur Grama",
+      "area": "2200 sq.ft",
+      "land_type": "ಮನೆ ನಿವೇಶನ (Housesite)",
+      "registration_date": "06-09-2019",
+      "document_date": "24-08-2019",
+      "boundary": {
+        "north": "Irrigation Channel",
+        "south": "Village Panchayat Road",
+        "east": "Village Panchayat Road",
+        "west": "Common Grazing Land"
+      },
+      "encumbrance": "encumbered"
+    },
+    "mismatched_fields": [
+      "area"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "AREA_MISMATCH",
+    "notes": "Document states area as 1800 sq.ft but the database record shows 2200 sq.ft."
+  },
+  "KAN_027_sale_deed_summary": {
+    "filename": "kannada/KAN_027_sale_deed_summary.png",
+    "language": "kannada",
+    "document_type": "sale_deed_summary",
+    "validation_case": "VALID",
+    "ocr_challenges": [
+      "complex_background",
+      "faded_text",
+      "mixed_language"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Shalini Rao",
+      "previous_owner": "Ashwini Desai",
+      "survey_no": "428/4B",
+      "subdivision_no": "1C",
+      "patta_no": "PT-5658",
+      "registration_no": "REG/2010/06026",
+      "district": "Mysuru",
+      "taluk": "Maddur Taluk",
+      "village": "Belur Agrahara",
+      "area": "1.04 acres",
+      "land_type": "ತರಿ ಭೂಮಿ (Wet)",
+      "registration_date": "30-07-2010",
+      "document_date": "29-07-2010",
+      "boundary": {
+        "north": "Village Panchayat Road",
+        "south": "Belur Agrahara Main Road",
+        "east": "Village Panchayat Road",
+        "west": "Government Poramboke Land"
+      },
+      "encumbrance": "encumbered",
+      "officer": "H.S. Umesh"
+    },
+    "expected_database_record": {
+      "owner_name": "Shalini Rao",
+      "previous_owner": "Ashwini Desai",
+      "survey_no": "428/4B",
+      "subdivision_no": "1C",
+      "patta_no": "PT-5658",
+      "registration_no": "REG/2010/06026",
+      "district": "Mysuru",
+      "taluk": "Maddur Taluk",
+      "village": "Belur Agrahara",
+      "area": "1.04 acres",
+      "land_type": "ತರಿ ಭೂಮಿ (Wet)",
+      "registration_date": "30-07-2010",
+      "document_date": "29-07-2010",
+      "boundary": {
+        "north": "Village Panchayat Road",
+        "south": "Belur Agrahara Main Road",
+        "east": "Village Panchayat Road",
+        "west": "Government Poramboke Land"
+      },
+      "encumbrance": "encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "VALID",
+    "notes": "All key fields on the document match the database exactly."
+  },
+  "KAN_028_property_registration_extract": {
+    "filename": "kannada/KAN_028_property_registration_extract.png",
+    "language": "kannada",
+    "document_type": "property_registration_extract",
+    "validation_case": "DUPLICATE",
+    "ocr_challenges": [
+      "complex_background",
+      "font_size_variation",
+      "mixed_language",
+      "poor_scan",
+      "stamp_overlap"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Siddappa Kori",
+      "previous_owner": "Deepa Shetty",
+      "survey_no": "202/2A",
+      "subdivision_no": "2A",
+      "patta_no": "PT-4098",
+      "registration_no": "REG/2016/08346",
+      "district": "Mysuru",
+      "taluk": "Gokak Taluk",
+      "village": "Halebeedu Colony",
+      "area": "2.29 acres",
+      "land_type": "ತೋಟದ ಭೂಮಿ (Garden)",
+      "registration_date": "10-12-2016",
+      "document_date": "21-11-2016",
+      "boundary": {
+        "north": "Halebeedu Colony Main Road",
+        "south": "Common Grazing Land",
+        "east": "Common Grazing Land",
+        "west": "Halebeedu Colony Main Road"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "H.S. Umesh"
+    },
+    "expected_database_record": {
+      "owner_name": "Siddappa Kori",
+      "previous_owner": "Deepa Shetty",
+      "survey_no": "202/2A",
+      "subdivision_no": "2A",
+      "patta_no": "PT-4098",
+      "registration_no": "REG/2016/08346",
+      "district": "Mysuru",
+      "taluk": "Gokak Taluk",
+      "village": "Halebeedu Colony",
+      "area": "2.29 acres",
+      "land_type": "ತೋಟದ ಭೂಮಿ (Garden)",
+      "registration_date": "10-12-2016",
+      "document_date": "21-11-2016",
+      "boundary": {
+        "north": "Halebeedu Colony Main Road",
+        "south": "Common Grazing Land",
+        "east": "Common Grazing Land",
+        "west": "Halebeedu Colony Main Road"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [],
+    "extra": {
+      "duplicate_of": "english_3"
+    },
+    "expected_validation_result": "DUPLICATE",
+    "notes": "This document's core identity (owner, survey number, village, area) is identical to another document in this dataset -- a duplicate property record."
+  },
+  "KAN_029_land_transfer_record": {
+    "filename": "kannada/KAN_029_land_transfer_record.png",
+    "language": "kannada",
+    "document_type": "land_transfer_record",
+    "validation_case": "MISSING_FIELD",
+    "ocr_challenges": [
+      "stamp_overlap",
+      "text_near_border",
+      "uneven_lighting"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Girish Achar",
+      "previous_owner": "Ashwini Desai",
+      "survey_no": "431/1B",
+      "subdivision_no": "4B2",
+      "patta_no": "",
+      "registration_no": "REG/2014/07908",
+      "district": "Shivamogga",
+      "taluk": "Nanjangud Taluk",
+      "village": "Belur Agrahara",
+      "area": "2.38 acres",
+      "land_type": "ಖುಷ್ಕಿ ಭೂಮಿ (Dry)",
+      "registration_date": "13-04-2014",
+      "document_date": "10-04-2014",
+      "boundary": {
+        "north": "Government Poramboke Land",
+        "south": "Village Panchayat Road",
+        "east": "Common Grazing Land",
+        "west": "Village Panchayat Road"
+      },
+      "encumbrance": "not_encumbered",
+      "officer": "B.K. Vasanti"
+    },
+    "expected_database_record": {
+      "owner_name": "Girish Achar",
+      "previous_owner": "Ashwini Desai",
+      "survey_no": "431/1B",
+      "subdivision_no": "4B2",
+      "patta_no": "PT-1847",
+      "registration_no": "REG/2014/07908",
+      "district": "Shivamogga",
+      "taluk": "Nanjangud Taluk",
+      "village": "Belur Agrahara",
+      "area": "2.38 acres",
+      "land_type": "ಖುಷ್ಕಿ ಭೂಮಿ (Dry)",
+      "registration_date": "13-04-2014",
+      "document_date": "10-04-2014",
+      "boundary": {
+        "north": "Government Poramboke Land",
+        "south": "Village Panchayat Road",
+        "east": "Common Grazing Land",
+        "west": "Village Panchayat Road"
+      },
+      "encumbrance": "not_encumbered"
+    },
+    "mismatched_fields": [],
+    "missing_fields": [
+      "patta_no"
+    ],
+    "extra": {},
+    "expected_validation_result": "MISSING_FIELD",
+    "notes": "The 'patta_no' field is blank / illegible on the document but has a value in the database."
+  },
+  "KAN_030_mutation_record": {
+    "filename": "kannada/KAN_030_mutation_record.png",
+    "language": "kannada",
+    "document_type": "mutation_record",
+    "validation_case": "MULTIPLE_CONFLICT",
+    "ocr_challenges": [
+      "faded_text",
+      "handwritten_signature",
+      "text_near_border"
+    ],
+    "printed_fields_on_document": {
+      "owner_name": "Ashwini Desai",
+      "previous_owner": "Pallavi Hiremath",
+      "survey_no": "205/3C",
+      "subdivision_no": "1A",
+      "patta_no": "PT-9318",
+      "registration_no": "REG/2021/07565",
+      "district": "Mandya",
+      "taluk": "Sagara Taluk",
+      "village": "Kadaba Kaval",
+      "area": "2500 sq.ft",
+      "land_type": "ಮನೆ ನಿವೇಶನ (Housesite)",
+      "registration_date": "03-10-2021",
+      "document_date": "20-09-2021",
+      "boundary": {
+        "north": "Village Panchayat Road",
+        "south": "Seasonal Water Course",
+        "east": "Survey No. 463 - Neighbouring Plot",
+        "west": "Common Grazing Land"
+      },
+      "encumbrance": "encumbered",
+      "officer": "T. Rangaswamy"
+    },
+    "expected_database_record": {
+      "owner_name": "Manjunath Gowda",
+      "previous_owner": "Pallavi Hiremath",
+      "survey_no": "203/3C",
+      "subdivision_no": "1A",
+      "patta_no": "PT-9318",
+      "registration_no": "REG/2021/07565",
+      "district": "Mandya",
+      "taluk": "Sagara Taluk",
+      "village": "Kadaba Kaval",
+      "area": "1800 sq.ft",
+      "land_type": "ಮನೆ ನಿವೇಶನ (Housesite)",
+      "registration_date": "03-10-2021",
+      "document_date": "20-09-2021",
+      "boundary": {
+        "north": "Village Panchayat Road",
+        "south": "Seasonal Water Course",
+        "east": "Survey No. 463 - Neighbouring Plot",
+        "west": "Common Grazing Land"
+      },
+      "encumbrance": "encumbered"
+    },
+    "mismatched_fields": [
+      "area",
+      "owner_name",
+      "survey_no"
+    ],
+    "missing_fields": [],
+    "extra": {},
+    "expected_validation_result": "MULTIPLE_CONFLICT",
+    "notes": "Multiple fields on the document (area, owner_name, survey_no) disagree with the database."
+  }
+}

@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Land Record Details</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f3f6f9;
+            color: #172b3a;
+        }
+
+        /* HEADER */
+
+        .header {
+            background: #102f4a;
+            color: white;
+            border-bottom: 4px solid #c99a2e;
+        }
+
+        .header-inner {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px 30px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            width: 48px;
+            height: 48px;
+
+            background: #c99a2e;
+            color: white;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 18px;
+            font-weight: bold;
+
+            border-radius: 5px;
+        }
+
+        .brand h1 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .brand p {
+            margin: 5px 0 0;
+            color: #cbd8e3;
+            font-size: 13px;
+        }
+
+        .portal {
+            font-size: 14px;
+            color: #dce6ee;
+        }
+
+        /* MAIN */
+
+        .container {
+            max-width: 1200px;
+            margin: 35px auto;
+            padding: 0 25px;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+
+            color: #17466b;
+            text-decoration: none;
+
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .back-button:hover {
+            text-decoration: underline;
+        }
+
+        /* RECORD HEADER */
+
+        .record-card {
+            background: white;
+            border: 1px solid #d9e2ea;
+            border-radius: 8px;
+
+            box-shadow: 0 3px 12px rgba(20, 50, 70, 0.08);
+
+            overflow: hidden;
+        }
+
+        .record-header {
+            padding: 25px 30px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            border-bottom: 1px solid #dce4ea;
+        }
+
+        .record-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .record-icon {
+            width: 45px;
+            height: 45px;
+
+            background: #102f4a;
+            color: white;
+
+            border-radius: 5px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-weight: bold;
+        }
+
+        .record-title h2 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .record-title p {
+            margin: 5px 0 0;
+            color: #708090;
+            font-size: 13px;
+        }
+
+        .verified {
+            border: 1px solid #8faabd;
+            color: #245475;
+
+            padding: 8px 14px;
+            border-radius: 5px;
+
+            font-size: 12px;
+            font-weight: 600;
+
+            letter-spacing: 0.4px;
+        }
+
+        /* CONTENT */
+
+        .record-body {
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 32px;
+        }
+
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: 700;
+
+            color: #245475;
+
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            padding-bottom: 12px;
+
+            border-bottom: 1px solid #dce4ea;
+
+            margin-bottom: 15px;
+        }
+
+        /* DETAILS GRID */
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px 18px;
+        }
+
+        .detail {
+            background: #f7f9fb;
+
+            border: 1px solid #e0e7ed;
+            border-left: 3px solid #17466b;
+
+            border-radius: 5px;
+
+            padding: 15px 17px;
+
+            min-height: 70px;
+        }
+
+        .label {
+            display: block;
+
+            color: #718292;
+
+            font-size: 11px;
+            font-weight: 600;
+
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+
+            margin-bottom: 8px;
+        }
+
+        .value {
+            font-size: 15px;
+            font-weight: 600;
+            color: #172b3a;
+
+            word-break: break-word;
+        }
+
+        /* FOOTER */
+
+        footer {
+            margin-top: 40px;
+
+            padding: 25px;
+
+            text-align: center;
+
+            border-top: 1px solid #d8e1e8;
+
+            color: #7b8b99;
+
+            font-size: 13px;
+        }
+
+        /* RESPONSIVE */
+
+        @media (max-width: 700px) {
+
+            .header-inner {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            .portal {
+                display: none;
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .record-header {
+                align-items: flex-start;
+                gap: 15px;
+                flex-direction: column;
+            }
+
+            .record-body {
+                padding: 20px;
+            }
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="header-inner">
+
+            <div class="brand">
+
+                <div class="logo">
+                    LR
+                </div>
+
+                <div>
+
+                    <h1>
+                        Land Record Management System
+                    </h1>
+
+                    <p>
+                        AI-Powered Land Document Intelligence Platform
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="portal">
+                Digital Land Records Portal
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- MAIN -->
+
+    <main class="container">
+
+        <a href="/" class="back-button">
+            ← Back to Search
+        </a>
+
+
+        <div class="record-card">
+
+
+            <!-- RECORD HEADER -->
+
+            <div class="record-header">
+
+                <div class="record-title">
+
+                    <div class="record-icon">
+                        LR
+                    </div>
+
+                    <div>
+
+                        <h2>
+                            Land Ownership Record
+                        </h2>
+
+                        <p>
+                            {{ record.get("source_file", "Land Record") }}
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="verified">
+                    VERIFIED RECORD
+                </div>
+
+            </div>
+
+
+            <!-- RECORD DETAILS -->
+
+            <div class="record-body">
+
+
+                <!-- PROPERTY IDENTIFICATION -->
+
+                <section class="section">
+
+                    <div class="section-title">
+                        Property Identification
+                    </div>
+
+
+                    <div class="details-grid">
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Registration Number
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("registration_number", "Not Available") }}
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Document Date
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("document_date", "Not Available") }}
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Survey Number
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("survey_number", "Not Available") }}
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Subdivision Number
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("subdivision_number", "Not Available") }}
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Patta Number
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("patta_number", "Not Available") }}
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- OWNERSHIP -->
+
+                <section class="section">
+
+                    <div class="section-title">
+                        Ownership Information
+                    </div>
+
+
+                    <div class="details-grid">
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Current Owner
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("owner_name", "Not Available") }}
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Previous Owner
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("previous_owner", "Not Available") }}
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- LOCATION -->
+
+                <section class="section">
+
+                    <div class="section-title">
+                        Location
+                    </div>
+
+
+                    <div class="details-grid">
+
+                        <div class="detail">
+
+                            <span class="label">
+                                District
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("district", "Not Available") }}
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Taluk / Tehsil
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("taluk_tehsil", "Not Available") }}
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Village
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("village", "Not Available") }}
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- LAND INFORMATION -->
+
+                <section class="section">
+
+                    <div class="section-title">
+                        Land Information
+                    </div>
+
+
+                    <div class="details-grid">
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Area
+                            </span>
+
+                            <span class="value">
+
+                                {{ record.get("area", "Not Available") }}
+
+                                {% if record.get("area_unit") %}
+                                    {{ record.get("area_unit") }}
+                                {% endif %}
+
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Land Type
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("land_type", "Not Available") }}
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- REGISTRATION -->
+
+                <section class="section">
+
+                    <div class="section-title">
+                        Registration Details
+                    </div>
+
+
+                    <div class="details-grid">
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Registration Date
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("registration_date", "Not Available") }}
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span class="label">
+                                Encumbrance Status
+                            </span>
+
+                            <span class="value">
+                                {{ record.get("encumbrance_status", "Not Available") }}
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+            </div>
+
+        </div>
+
+
+        <footer>
+
+            Land Record Management System
+            &nbsp; | &nbsp;
+            AI-Powered OCR & Field Extraction
+            &nbsp; | &nbsp;
+            Digital Land Records
+
+        </footer>
+
+    </main>
+
+</body>
+
+</html>

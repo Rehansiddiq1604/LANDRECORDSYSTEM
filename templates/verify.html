@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Document Verification | Land Records</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            background: #f5f7fa;
+            color: #1f2937;
+        }
+
+        /* ================= HEADER ================= */
+
+        .header {
+
+            background: #102a43;
+            color: white;
+
+            padding: 0 6%;
+
+            height: 72px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .brand {
+
+            font-size: 20px;
+            font-weight: 700;
+
+        }
+
+        .brand span {
+
+            font-size: 12px;
+            display: block;
+
+            color: #b9c7d6;
+
+            margin-top: 3px;
+
+        }
+
+        .nav {
+
+            display: flex;
+            gap: 28px;
+
+        }
+
+        .nav a {
+
+            color: #d9e2ec;
+
+            text-decoration: none;
+
+            font-size: 14px;
+
+        }
+
+        .nav a:hover {
+
+            color: white;
+
+        }
+
+        /* ================= MAIN ================= */
+
+        .container {
+
+            width: 88%;
+            max-width: 1150px;
+
+            margin: 45px auto;
+
+        }
+
+        .page-title {
+
+            margin-bottom: 8px;
+
+            font-size: 30px;
+            font-weight: 700;
+
+            color: #102a43;
+
+        }
+
+        .page-description {
+
+            color: #627d98;
+
+            font-size: 15px;
+
+            margin-bottom: 30px;
+
+        }
+
+        /* ================= CARD ================= */
+
+        .card {
+
+            background: white;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 10px;
+
+            padding: 35px;
+
+            box-shadow:
+                0 4px 15px rgba(16, 42, 67, 0.06);
+
+        }
+
+        .card-title {
+
+            font-size: 19px;
+
+            font-weight: 600;
+
+            color: #243b53;
+
+            margin-bottom: 8px;
+
+        }
+
+        .card-subtitle {
+
+            font-size: 14px;
+
+            color: #7b8794;
+
+            margin-bottom: 25px;
+
+        }
+
+        /* ================= UPLOAD AREA ================= */
+
+        .upload-area {
+
+            border: 2px dashed #bcccdc;
+
+            border-radius: 10px;
+
+            padding: 50px 20px;
+
+            text-align: center;
+
+            background: #f8fafc;
+
+            cursor: pointer;
+
+            transition: 0.2s;
+
+        }
+
+        .upload-area:hover {
+
+            border-color: #486581;
+
+            background: #f1f5f9;
+
+        }
+
+        .upload-icon {
+
+            font-size: 38px;
+
+            margin-bottom: 15px;
+
+        }
+
+        .upload-title {
+
+            font-size: 17px;
+
+            font-weight: 600;
+
+            color: #243b53;
+
+        }
+
+        .upload-description {
+
+            font-size: 13px;
+
+            color: #829ab1;
+
+            margin-top: 8px;
+
+        }
+
+        input[type="file"] {
+
+            display: none;
+
+        }
+
+        /* ================= FILE NAME ================= */
+
+        .file-name {
+
+            margin-top: 20px;
+
+            padding: 12px 15px;
+
+            background: #eef2f6;
+
+            border-radius: 6px;
+
+            font-size: 14px;
+
+            color: #334e68;
+
+            display: none;
+
+        }
+
+        /* ================= BUTTON ================= */
+
+        .button-container {
+
+            margin-top: 25px;
+
+            display: flex;
+
+            justify-content: flex-end;
+
+        }
+
+        .verify-button {
+
+            border: none;
+
+            background: #1f4e79;
+
+            color: white;
+
+            padding: 13px 28px;
+
+            border-radius: 6px;
+
+            font-size: 14px;
+
+            font-weight: 600;
+
+            cursor: pointer;
+
+        }
+
+        .verify-button:hover {
+
+            background: #163a5c;
+
+        }
+
+        /* ================= PROCESS ================= */
+
+        .process {
+
+            margin-top: 30px;
+
+            padding-top: 25px;
+
+            border-top: 1px solid #e5e7eb;
+
+        }
+
+        .process-title {
+
+            font-size: 15px;
+
+            font-weight: 600;
+
+            color: #334e68;
+
+            margin-bottom: 18px;
+
+        }
+
+        .step {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 12px;
+
+            margin-bottom: 12px;
+
+            font-size: 14px;
+
+            color: #627d98;
+
+        }
+
+        .step-icon {
+
+            width: 22px;
+            height: 22px;
+
+            border-radius: 50%;
+
+            background: #e5e7eb;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 12px;
+
+        }
+
+        /* ================= ERROR ================= */
+
+        .error {
+
+            background: #fff4f4;
+
+            border: 1px solid #f5b5b5;
+
+            color: #9b1c1c;
+
+            padding: 14px 16px;
+
+            border-radius: 7px;
+
+            margin-bottom: 20px;
+
+            font-size: 14px;
+
+        }
+
+        /* ================= FOOTER ================= */
+
+        footer {
+
+            text-align: center;
+
+            padding: 30px;
+
+            color: #829ab1;
+
+            font-size: 12px;
+
+        }
+
+        /* ================= MOBILE ================= */
+
+        @media (max-width: 700px) {
+
+            .header {
+
+                height: auto;
+
+                padding: 18px 5%;
+
+                flex-direction: column;
+
+                gap: 15px;
+
+            }
+
+            .nav {
+
+                gap: 15px;
+
+            }
+
+            .container {
+
+                width: 92%;
+
+                margin: 30px auto;
+
+            }
+
+            .card {
+
+                padding: 22px;
+
+            }
+
+            .button-container {
+
+                justify-content: stretch;
+
+            }
+
+            .verify-button {
+
+                width: 100%;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+    <div class="brand">
+
+        LAND RECORD MANAGEMENT SYSTEM
+
+        <span>
+            Digital Land Record Verification Portal
+        </span>
+
+    </div>
+
+
+    <nav class="nav">
+
+        <a href="/">
+            Search
+        </a>
+
+        <a href="/verify">
+            Verify Document
+        </a>
+
+    </nav>
+
+</header>
+
+
+<!-- =====================================================
+     MAIN CONTENT
+===================================================== -->
+
+<main class="container">
+
+    <h1 class="page-title">
+        Document Verification
+    </h1>
+
+    <p class="page-description">
+
+        Upload a land document to extract its information
+        and verify it against trusted land records.
+
+    </p>
+
+
+    {% if error %}
+
+    <div class="error">
+
+        {{ error }}
+
+    </div>
+
+    {% endif %}
+
+
+    <div class="card">
+
+
+        <div class="card-title">
+
+            Upload Land Document
+
+        </div>
+
+
+        <div class="card-subtitle">
+
+            Supported formats: PDF, JPG, JPEG and PNG
+
+        </div>
+
+
+        <!-- =================================================
+             UPLOAD FORM
+        ================================================== -->
+
+        <form
+            action="/verify"
+            method="POST"
+            enctype="multipart/form-data"
+        >
+
+
+            <label
+                class="upload-area"
+                for="document"
+            >
+
+                <div class="upload-icon">
+                    ⇧
+                </div>
+
+                <div class="upload-title">
+
+                    Select a document to verify
+
+                </div>
+
+                <div class="upload-description">
+
+                    Click here to browse files
+
+                </div>
+
+            </label>
+
+
+            <input
+                type="file"
+                id="document"
+                name="document"
+                accept=".pdf,.png,.jpg,.jpeg"
+                required
+            >
+
+
+            <div
+                class="file-name"
+                id="fileName"
+            ></div>
+
+
+            <div class="button-container">
+
+                <button
+                    type="submit"
+                    class="verify-button"
+                >
+
+                    Verify Document
+
+                </button>
+
+            </div>
+
+
+        </form>
+
+
+        <!-- =================================================
+             VERIFICATION PROCESS
+        ================================================== -->
+
+        <div class="process">
+
+            <div class="process-title">
+
+                Verification Process
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-icon">
+                    1
+                </div>
+
+                Document Upload
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-icon">
+                    2
+                </div>
+
+                OCR Text Extraction
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-icon">
+                    3
+                </div>
+
+                Land-Record Field Extraction
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-icon">
+                    4
+                </div>
+
+                Trusted Record Comparison
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-icon">
+                    5
+                </div>
+
+                Verification Result
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    Land Record Management System
+    &nbsp;|&nbsp;
+    AI-Assisted Document Verification
+
+</footer>
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script>
+
+    const fileInput =
+        document.getElementById("document");
+
+    const fileName =
+        document.getElementById("fileName");
+
+
+    fileInput.addEventListener(
+        "change",
+        function () {
+
+            if (this.files.length > 0) {
+
+                fileName.style.display = "block";
+
+                fileName.textContent =
+                    "Selected document: "
+                    + this.files[0].name;
+
+            }
+
+        }
+    );
+
+</script>
+
+
+</body>
+
+</html>
